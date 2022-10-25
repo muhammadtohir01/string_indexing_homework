@@ -6,4 +6,8 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    l1=s[0:1]
+    l2=s[len(s)-1:len(s)]
+    b=l1+l2
+    return b
+print(main('salom'))
